@@ -1,0 +1,139 @@
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a113d;
+}
+
+html a{
+    cursor: url("../imagens/cursor_panda_branco.png"), default;
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+/*-----------------------------Início do Cabeçalho-------------------------*/
+header{
+    z-index: 2;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a113d9e;
+    
+    
+}
+ .cabecalho{
+     height: 200px;
+     width: 90%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;    
+
+ }
+
+ .logo img{
+     width: 150px;
+ }
+
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 40px;
+    
+}
+.links a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #F0F0F0;
+    border: 1px solid #33BB69;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: #33BB69 3px 3px;
+}
+
+.links a:hover{
+    background-color: #33BB69;
+    transition: 0.4s;
+    box-shadow: #ebecf0 3px 3px;
+    
+}
+
+
+/*------------------------Fim do cabeçalho--------------------------*/
+
+
+
+
+/*------------------------Início do rodapé-------------------------*/
+footer{
+    background-color: #0a113d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.rodape{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #F0F0F0;
+    gap: 25px;
+    padding: 25px 0;
+}
+
+.devs{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.dev{
+    width: 115px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.dev h4{
+    text-align: center;
+    width: 120px
+}
+
+
+.redes{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.redes a img{
+    width: 45px;
+}
+
+.redes a:hover{
+    transform: scale(1.35);
+    transition: 0.4s;
+    
+}
+/*------------------------------Fim do rodapé----------------------------*/

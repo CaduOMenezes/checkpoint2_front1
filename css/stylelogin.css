@@ -1,0 +1,155 @@
+/*------------------------Main------------------------------*/
+
+.saudacao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    background-image: url(../imagens/banner_login.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F0F0F0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.caixa {
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    gap: 15px;
+    padding: 15px;
+}
+
+.caixa h1{
+    font-size: 24px;
+    font-style: italic;
+}
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.choice a:hover{
+    color:#33BB69;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    color: #F0F0F0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    background-image: linear-gradient(#222d79 , #152170 , #0e1857, #0c154e, #0a113d);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 300px;
+    border-radius: 15px;
+    border: solid 2px #33BB69;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+form h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+}
+
+.inputs input{
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #33BB69;
+    border-radius: 15px;
+    background-color: none;
+    background-color:#0a113d90;
+    cursor: url("../imagens/cursor_panda_branco.png"), default;
+    color: #F0F0F0;
+}
+
+
+.extra{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 14px;
+    width: 300px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.extra a:hover{
+    color: #33BB69;
+    transition: 0.4s;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+.remember input , .remember label{
+    cursor: url("../imagens/cursor_panda_branco.png"), default;
+}
+
+#lenviar{
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px #33BB69 solid;
+    padding: 10px 0;
+    background-color:#0a113d90;
+    color: #F0F0F0;
+    cursor: url("../imagens/cursor_panda_branco.png"), default;
+    box-shadow: #33BB69 4px 4px;
+}
+
+#lenviar:hover{
+    transition: 0.4s;
+    background: #33BB69;
+    box-shadow: #ebecf0 4px 4px;
+
+}
+
+
+
+
+
+/*------------------------Main------------------------------*/

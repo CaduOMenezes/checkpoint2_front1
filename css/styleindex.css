@@ -1,0 +1,226 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a113d;
+}
+
+html a{
+    cursor: url("../imagens/cursor_panda_branco.png"), default;
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+/*------------------------Início do main----------------------------*/
+
+.banner{
+    background-image: url(../imagens/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content:baseline;
+    align-items: left;
+    flex-direction: column;
+}
+.banner a:hover{
+    transform: scale(1.1);
+    background-color: #33BB69;
+    transition: 0.4s;
+    
+}
+
+.content-banner{
+    color: #F0F0F0;
+    width: 350px;
+    height: 200px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 15px;
+    border-radius: 15px;
+    background-color: #2e0a3d6b;
+    position: relative;
+    left: 10%;
+    top: 100px;
+}
+
+.floating-card{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+}
+
+.content-banner a{
+    text-decoration: none;
+    color:#F0F0F0;
+    background-color: #33bb6920;
+    border: 2px solid #33BB69;
+    border-radius: 15px;
+    padding: 15px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-jogos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 35px 0;
+    background-image: url(../imagens/fundo_cards3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #c3c2c2;
+}
+.content-jogos h2{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.content-jogos > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border: 2px #33BB69 solid;
+    border-radius: 10px;
+    width: 180px;
+
+}
+
+.content-jogos a:hover{
+    transform: scale(1.1);
+    background-color: #33BB69;
+    transition: 0.4s;
+    
+}
+
+.content-cards{
+     width: 90%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 35px;
+     padding: 15px 0;
+}
+
+.cards{
+    width: 25%;
+    min-width: 210px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items:center;
+    padding: 0 15px;
+    height: 350px;
+    color: #c3c2c2;
+    
+}
+
+.cards:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    
+}
+
+.desc-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #3f275ed0;
+    border-radius: 15px;
+    min-height: 120px;
+}
+
+.desc-card a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    border: 2px #33BB69 solid;
+    border-radius: 10px;
+}
+
+.content-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 8px;
+}
+
+.content-desc h3{
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.content-desc p{
+    font-size: 15px;
+}
+
+.plague{
+    background-image: url(../imagens/plague_card.jpg);
+    background-size: cover;
+
+}
+.stalker{
+    background-image: url(../imagens/stalker.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hogwarts{
+    background-image: url(../imagens/Hogwarts-Legacy-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lego{
+    background-image: url(../imagens/lego_skywalker.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar{
+    background-image: url(../imagens/avatar_card.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mario{
+    background-image: url(../imagens/mario_card.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*------------------------Fim do main-------------------------------*/
