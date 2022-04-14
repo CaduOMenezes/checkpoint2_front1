@@ -26,10 +26,9 @@ html a{
     flex-direction: column;
 }
 .banner a:hover{
-    transform: scale(1.1);
+    box-shadow: #ebecf0 3px 3px;
     background-color: #33BB69;
     transition: 0.4s;
-    
 }
 
 .content-banner{
@@ -67,6 +66,7 @@ html a{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: #33BB69 3px 3px;
 }
 
 
@@ -106,7 +106,7 @@ html a{
 }
 
 .content-jogos a:hover{
-    transform: scale(1.1);
+    box-shadow: #ebecf0 3px 3px;
     background-color: #33BB69;
     transition: 0.4s;
     
@@ -165,6 +165,7 @@ html a{
     padding: 8px 0;
     border: 2px #33BB69 solid;
     border-radius: 10px;
+    box-shadow: #33BB69 3px 3px;
 }
 
 .content-desc{
