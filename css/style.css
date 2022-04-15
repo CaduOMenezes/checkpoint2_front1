@@ -44,7 +44,7 @@ header{
     
 }
  .cabecalho{
-     height: 200px;
+     height: 175px;
      width: 90%;
      display: flex;
      align-items: center;
@@ -54,17 +54,17 @@ header{
  }
 
  .logo img{
-     width: 150px;
+     width: 200px;
  }
 
 .links{
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 10px 40px;
+    padding: 10px 20px;
     
 }
 .links a{
@@ -73,7 +73,7 @@ header{
     color: #F0F0F0;
     border: 1px solid #33BB69;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px ;
     box-shadow: #33BB69 3px 3px;
 }
 

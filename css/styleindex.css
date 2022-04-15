@@ -15,7 +15,7 @@ html a{
 /*------------------------Início do main----------------------------*/
 
 .banner{
-    background-image: url(../imagens/banner1.png);
+    background-image: url(../imagens/controles.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,6 +56,11 @@ html a{
     justify-content: space-between;
     align-items: left;
     flex-direction: column;
+}
+
+.floating-card h1{
+    font-size: 36px;
+    font-weight: 600;
 }
 
 .content-banner a{
@@ -151,6 +156,7 @@ html a{
     border: 2px #33BB69 solid;
     border-radius: 10px;
     width: 180px;
+    box-shadow: #33BB69 3px 3px;
 
 }
 
@@ -174,7 +180,6 @@ html a{
 .cards{
     width: 25%;
     min-width: 210px;
-    border: 1px solid black;
     border-radius: 15px;
     display: flex;
     justify-content: flex-end;
@@ -274,3 +279,14 @@ html a{
 }
 
 /*------------------------Fim do main-------------------------------*/
+
+
+@media only screen and (min-width:1400px) {
+    .cards{
+        width: 30%;
+        min-width: 300px;
+        max-width: 450px;
+        height: 600px;
+        
+    }
+}
