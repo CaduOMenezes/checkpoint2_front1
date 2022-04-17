@@ -1,0 +1,81 @@
+main{
+    color: #F0F0F0;
+}
+
+.content-itens{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    gap: 40px;
+}
+
+.content-itens img{
+    width: 100%;
+    min-height: 300px;
+
+}
+
+.desc-jogos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 20px 0;
+}
+
+.desc-jogos h1{
+    font-size: 28px;
+    padding: 15px 10px;
+    border: 2px solid #33BB69;
+    box-shadow: #33BB69 4px 4px;
+    border-radius: 15px;
+}
+
+.desc-jogos p{
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+.desenvolvimento {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.trailer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px; 
+    padding: 15px 0;
+    width: 100%;
+}
+
+.trailer h2{
+    font-size: 26px;
+    border: 2px solid #33BB69;
+    box-shadow: #33BB69 4px 4px;
+    padding: 15px 10px;
+    border-radius: 15px;
+}
+
+.trailer iframe{
+    width: 90%;
+    min-height: 500px;
+}
+
+
