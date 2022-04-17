@@ -76,7 +76,7 @@ html a{
     box-shadow: #33BB69 3px 3px;
 }
 
-/*----------------Parallax-----------------
+
 .parallax {
     perspective: 100px;
     height: 100vh;
@@ -123,7 +123,7 @@ html a{
        transform: translateZ(-100 * $x#{px}) scale($x + 1);
     }
   }
----------------- fim doParallax-----------------*/
+
 .content-jogos{
     width: 100%;
     display: flex;
