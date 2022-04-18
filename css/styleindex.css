@@ -42,7 +42,7 @@ html a{
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
-    gap: 15px;
+    gap: 25px;
     border-radius: 15px;
     background-color: #2e0a3d6b;
     position: relative;
@@ -289,4 +289,12 @@ html a{
         height: 600px;
         
     }
+}
+
+@media only screen and (max-width:500px) {
+    .content-banner{
+        width: 300px;
+        height: 200px;
+    }
+
 }

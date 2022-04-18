@@ -1,0 +1,40 @@
+.saudacao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    background-image: url(../imagens/banner_sobre.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #F0F0F0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.caixa {
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    min-width: 200px;
+    width: 50%;
+    gap: 15px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.caixa h1{
+    font-size: 24px;
+    font-style: italic;
+}
+
+    @media only screen and (min-width: 1400px){
+        .saudacao{
+            height: 500px;
+        }
+    }
