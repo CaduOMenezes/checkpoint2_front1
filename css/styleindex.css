@@ -74,6 +74,7 @@ html a{
     justify-content: center;
     align-items: center;
     box-shadow: #33BB69 3px 3px;
+    font-size: 22px;
 }
 
 
@@ -139,10 +140,19 @@ html a{
     background-position: center;
     color: #c3c2c2;
 }
+
+
 .content-jogos h2{
-    font-size: 35px;
-    font-weight: 700;
-    padding: 15px 0;
+        color: #F0F0F0;
+        font-size: 28px;
+        border: 2px solid #33BB69;
+        border-radius: 15px;
+        box-shadow: #33BB69 4px 4px;
+        padding: 15px 20px;
+        margin: 15px 0;
+        font-weight: 700;
+        
+
 }
 
 .content-jogos > a{

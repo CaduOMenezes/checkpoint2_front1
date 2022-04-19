@@ -1,0 +1,201 @@
+html{
+    color: #F0F0F0;
+    text-align: justify;
+}
+
+.saudacao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    background-image: url(../imagens/banner_sobrev4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #F0F0F0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.content-jogos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 35px 0;
+    background-image: url(../imagens/fundo_cards3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #c3c2c2;
+    margin: 15px 0;
+}
+
+.titulo{
+    color: #F0F0F0;
+    font-size: 28px;
+    border: 2px solid #33BB69;
+    border-radius: 15px;
+    box-shadow: #33BB69 4px 4px;
+    padding: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divisoria{
+    border-bottom: #33BB69 solid 2px;
+    width: 70%;
+}
+
+.content-jogos > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border: 2px #33BB69 solid;
+    border-radius: 10px;
+    width: 180px;
+    box-shadow: #33BB69 3px 3px;
+
+}
+
+.content-jogos a:hover{
+    box-shadow: #ebecf0 3px 3px;
+    background-color: #33BB69;
+    transition: 0.4s;
+    
+}
+
+.content-cards{
+     width: 90%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 35px;
+     padding: 15px 0;
+}
+
+.cards{
+    width: 25%;
+    min-width: 210px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items:center;
+    padding: 0 15px;
+    height: 350px;
+    color: #c3c2c2;
+    
+}
+
+.cards:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    
+}
+
+.desc-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #3f275ed0;
+    border-radius: 15px;
+    min-height: 120px;
+}
+
+.desc-card a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    border: 2px #33BB69 solid;
+    border-radius: 10px;
+    box-shadow: #33BB69 3px 3px;
+}
+
+.content-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 8px;
+}
+
+.content-desc h3{
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.content-desc p{
+    font-size: 15px;
+}
+
+.plague{
+    background-image: url(../imagens/plague_card.jpg);
+    background-size: cover;
+
+}
+.stalker{
+    background-image: url(../imagens/stalker.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hogwarts{
+    background-image: url(../imagens/Hogwarts-Legacy-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lego{
+    background-image: url(../imagens/lego_skywalker.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar{
+    background-image: url(../imagens/avatar_card.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mario{
+    background-image: url(../imagens/mario_card.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (min-width:1400px) {
+    .cards{
+        width: 30%;
+        min-width: 300px;
+        max-width: 450px;
+        height: 600px;
+        
+    }
+}
