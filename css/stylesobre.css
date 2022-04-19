@@ -1,3 +1,8 @@
+html{
+    color: #F0F0F0;
+    text-align: justify;
+}
+
 .saudacao{
     width: 100%;
     display: flex;
@@ -5,28 +10,16 @@
     align-items: center;
     flex-direction: column;
     height: 450px;
-    background-image: url(../imagens/banner_sobre.webp);
-    background-size:cover;
+    background-image: url(../imagens/banner_sobrev4.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     color: #F0F0F0;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-.caixa {
-    height: 120px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    max-width: 250px;
-    min-width: 200px;
-    width: 50%;
-    gap: 15px;
-    padding: 15px;
-    text-align: center;
-    
-}
+
 
 .caixa h1{
     font-size: 24px;
@@ -37,4 +30,101 @@
         .saudacao{
             height: 500px;
         }
+
+        
+    }
+
+    @media only screen and (max-width: 600px){
+        .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-wrap: wrap;
+        }
+    }
+
+    .content-sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        width: 95%;
+    }
+
+    .sobre-site{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 20px 0;
+    }
+
+    .sobre-site p{
+        font-size: 20px;
+        
+    }
+
+    .sobre-nos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 80%;
+        margin: 20px 0;
+    }
+    .divisoria{
+        border-bottom: #33BB69 solid 2px;
+        width: 70%;
+    }
+
+    .titulo{
+        color: #33BB69;
+        font-size: 24px;
+        border: 2px solid #33BB69;
+        border-radius: 15px;
+        box-shadow: #33BB69 4px 4px;
+        padding: 10px 10px;
+        margin: 15px 0;
+    }
+
+    .crias {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        margin: 15px 0;
+    }
+
+    .crias h3{
+        color: #33BB69;
+        font-size: 22px;
+        border: 2px solid #33BB69;
+        border-radius: 15px;
+        box-shadow: #33BB69 4px 4px;
+        padding: 10px 10px;
+    }
+
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 25px;
+        width: 90%;
+        font-size: 18px;
+
+    }
+
+    .content img{
+        width: 150px;
+        border-radius: 50px;
+        border: 2px solid #33BB69;
+        box-shadow: #33BB69 4px 4px;
     }
