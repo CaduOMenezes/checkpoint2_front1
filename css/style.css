@@ -11,6 +11,10 @@ html a{
     color: #F0F0F0;
 }
 
+main{
+    margin: 0 auto;
+}
+
 ::-webkit-scrollbar{
     width: 10px;
 }
