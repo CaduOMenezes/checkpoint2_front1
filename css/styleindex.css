@@ -115,15 +115,6 @@ html a{
     height: 2000px;
     z-index: 2;
   }
-  
-  $parallax__layers: 5;
-  
-  @for $i from 0 through $parallax__layers {
-    $x: ($parallax__layers - $i) / 2;
-    .parallax__layer__#{$i}{
-       transform: translateZ(-100 * $x#{px}) scale($x + 1);
-    }
-  }
 
 .content-jogos{
     width: 100%;
